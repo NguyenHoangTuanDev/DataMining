@@ -28,7 +28,7 @@ with col1:
 
     Card_Category = st.selectbox('Card_Category', index=0, options=['Blue', 'Gold', 'Silver', 'Platinum'])
 
-    Months_on_book = st.number_input('Months_on_book', value=39, min_value=0, max_value=100)
+    Months_on_book = st.number_input('Months_on_book', value=float(39), min_value=0, max_value=100)
 
     Total_Relationship_Count = st.number_input('Total_Relationship_Count', value=5, min_value=0, max_value=10)
 
