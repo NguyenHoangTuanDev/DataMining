@@ -45,7 +45,7 @@ with col2:
 
     Total_Amt_Chng_Q4_Q1 = st.number_input('Total_Amt_Chng_Q4_Q1', value=1.335, min_value=0.0)
 
-    Total_Trans_Amt = st.number_input('Total_Trans_Amt', value=1144, min_value=0)
+    Total_Trans_Amt = st.number_input('Total_Trans_Amt', value=1144, min_value=0.01)
 
     Total_Trans_Ct = st.number_input('Total_Trans_Ct', value=42, min_value=0)
 
