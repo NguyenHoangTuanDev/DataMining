@@ -16,7 +16,7 @@ with col1:
 
     Customer_Age = st.slider('Customer_Age:', value= 45, min_value=1, max_value=120)
 
-    Gender = st.radio('Gender:'M', options=['M (Male)','F (Female)'])
+    Gender = st.radio('Gender:', options=['M (Male)','F (Female)'])
 
     Dependent_count = st.number_input('Dependent_count:', value=3, min_value=0, max_value=20)
 
