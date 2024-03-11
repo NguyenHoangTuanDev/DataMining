@@ -43,7 +43,7 @@ with col2:
 
     Avg_Open_To_Buy = st.number_input('Avg_Open_To_Buy', value=11914, min_value=0)
 
-    Total_Amt_Chng_Q4_Q1 = st.number_input('Total_Amt_Chng_Q4_Q1', value=1.335, min_value=foat())
+    Total_Amt_Chng_Q4_Q1 = st.number_input('Total_Amt_Chng_Q4_Q1', value=1.335, min_value=None)
 
     Total_Trans_Amt = st.number_input('Total_Trans_Amt', value=1144, min_value=0.01)
 
