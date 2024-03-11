@@ -37,21 +37,21 @@ with col2:
 
     Contacts_Count_12_mon = st.number_input('Contacts_Count_12_mon', value=3, min_value=0, max_value=10)
 
-    Credit_Limit = st.number_input('Credit_Limit', value=12691, min_value=0)
+    Credit_Limit = st.number_input('Credit_Limit', value=12691.000, min_value=0.000)
 
     Total_Revolving_Bal = st.number_input('Total_Revolving_Bal', value=777, min_value=0)
 
-    Avg_Open_To_Buy = st.number_input('Avg_Open_To_Buy', value=11914, min_value=0)
+    Avg_Open_To_Buy = st.number_input('Avg_Open_To_Buy', value=11914.000, min_value=0.000)
 
-    Total_Amt_Chng_Q4_Q1 = st.number_input('Total_Amt_Chng_Q4_Q1', value=1.335, min_value=None)
+    Total_Amt_Chng_Q4_Q1 = st.number_input('Total_Amt_Chng_Q4_Q1', value=1.335, min_value=0.000)
 
-    Total_Trans_Amt = st.number_input('Total_Trans_Amt', value=1144, min_value=None)
+    Total_Trans_Amt = st.number_input('Total_Trans_Amt', value=1144, min_value=0)
 
-    Total_Trans_Ct = st.number_input('Total_Trans_Ct', value=42, min_value=None)
+    Total_Trans_Ct = st.number_input('Total_Trans_Ct', value=42, min_value=0)
 
-    Total_Ct_Chng_Q4_Q1 = st.number_input('Total_Ct_Chng_Q4_Q1', value=1.625, min_value=None)
+    Total_Ct_Chng_Q4_Q1 = st.number_input('Total_Ct_Chng_Q4_Q1', value=1.625, min_value=0.000)
 
-    Avg_Utilization_Ratio = st.number_input('Avg_Utilization_Ratio', value=0.061, min_value=None)
+    Avg_Utilization_Ratio = st.number_input('Avg_Utilization_Ratio', value=0.061, min_value=0.000)
 
 
 def predict_Attrition_Flag(
