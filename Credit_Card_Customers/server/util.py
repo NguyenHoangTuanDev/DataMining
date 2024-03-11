@@ -32,84 +32,7 @@ def predict_Attrition_Flag(
     Total_Ct_Chng_Q4_Q1,
     Avg_Utilization_Ratio):
     
-    # try:
-    #     loc_index = __card.index(Card_Category.lower())
-    # except:
-    #     loc_index = -1
-    #
-    # if loc_index == 0:
-    #     Card_Category = 0
-    # elif loc_index == 1:
-    #     Card_Category = 1
-    # elif loc_index == 2:
-    #     Card_Category = 2
-    # elif loc_index == 3:
-    #     Card_Category = 3
-    # elif loc_index == 4:
-    #     Card_Category = 4
-    # elif loc_index == 5:
-    #     Card_Category = 5
-    #
-    #
-    # try:
-    #     loc_index1 = __edu.index(Education_Level.lower())
-    # except:
-    #     loc_index1 = -1
-    #
-    # if loc_index1 == 0:
-    #     Education_Level = 0
-    # elif loc_index1 == 1:
-    #     Education_Level = 1
-    # elif loc_index1 == 2:
-    #     Education_Level = 2
-    # elif loc_index1 == 3:
-    #     Education_Level = 3
-    # elif loc_index1 == 4:
-    #     Education_Level = 4
-    # elif loc_index1 == 5:
-    #     Education_Level = 5
-    # elif loc_index1 == 6:
-    #     Education_Level = 6
-    #
-    #
-    # try:
-    #     loc_index2 = __income.index(Income_Category.lower())
-    # except:
-    #     loc_index2 = -1
-    #
-    # if loc_index2 == 0:
-    #     Income_Category = 0
-    # elif loc_index2 == 1:
-    #     Income_Category = 1
-    # elif loc_index2 == 2:
-    #     Income_Category = 2
-    # elif loc_index2 == 3:
-    #     Income_Category = 3
-    #
-    # try:
-    #     loc_index3 = __marital.index(Marital_Status.lower())
-    # except:
-    #     loc_index3 = -1
-    #
-    # if loc_index3 == 0:
-    #     Marital_Status = 0
-    # elif loc_index3 == 1:
-    #     Marital_Status = 1
-    # elif loc_index3 == 2:
-    #     Marital_Status = 2
-    # elif loc_index3 == 3:
-    #     Marital_Status = 3
-    #
-    #
-    # try:
-    #     loc_index4 = __gender.index(Gender.lower())
-    # except:
-    #     loc_index4 = -1
-    #
-    # if loc_index4 == 0:
-    #     Gender = 0
-    # elif loc_index4 == 1:
-    #     Gender = 1
+
 
 
     gender = LabelEncoder()
@@ -151,27 +74,6 @@ def predict_Attrition_Flag(
 
 
 
-    # new_sample = [[
-    #                 Customer_Age,
-    #                 Gender,
-    #                 Dependent_count,
-    #                 Education_Level,
-    #                 Marital_Status,
-    #                 Income_Category,
-    #                 Card_Category,
-    #                 Months_on_book,
-    #                 Total_Relationship_Count,
-    #                 Months_Inactive_12_mon,
-    #                 Contacts_Count_12_mon,
-    #                 Credit_Limit,
-    #                 Total_Revolving_Bal,
-    #                 Avg_Open_To_Buy,
-    #                 Total_Amt_Chng_Q4_Q1,
-    #                 Total_Trans_Amt,
-    #                 Total_Trans_Ct,
-    #                 Total_Ct_Chng_Q4_Q1,
-    #                 Avg_Utilization_Ratio,
-    # ]]
 
     x = pd.DataFrame(new_sample)
     x.columns = __columns
