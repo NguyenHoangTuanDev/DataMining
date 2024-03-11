@@ -43,15 +43,15 @@ with col2:
 
     Avg_Open_To_Buy = st.number_input('Avg_Open_To_Buy', value=11914, min_value=0)
 
-    Total_Amt_Chng_Q4_Q1 = st.number_input('Total_Amt_Chng_Q4_Q1', value=1.335, min_value=0.000)
+    Total_Amt_Chng_Q4_Q1 = st.number_input('Total_Amt_Chng_Q4_Q1', value=1.335, min_value=0.00)
 
-    Total_Trans_Amt = st.number_input('Total_Trans_Amt', value=1144, min_value=0.010)
+    Total_Trans_Amt = st.number_input('Total_Trans_Amt', value=1144, min_value=0.01)
 
     Total_Trans_Ct = st.number_input('Total_Trans_Ct', value=42, min_value=0)
 
-    Total_Ct_Chng_Q4_Q1 = st.number_input('Total_Ct_Chng_Q4_Q1', value=1.625, min_value=0.000)
+    Total_Ct_Chng_Q4_Q1 = st.number_input('Total_Ct_Chng_Q4_Q1', value=1.625, min_value=0.00)
 
-    Avg_Utilization_Ratio = st.number_input('Avg_Utilization_Ratio', value=0.061, min_value=0.000)
+    Avg_Utilization_Ratio = st.number_input('Avg_Utilization_Ratio', value=0.061, min_value=0.00)
 
 
 def predict_Attrition_Flag(
