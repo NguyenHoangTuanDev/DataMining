@@ -9,12 +9,14 @@ st.write('''
 
 ## Form prediction customers 
 ''')
-
+check == True
 col1, col2 = st.columns(2)
 
 with col1:
 
     Customer_Age = st.slider('Customer_Age:', value=45, min_value=1, max_value=100)
+    if Customer_Age > 18
+        check=Flase
 
     Gender = st.radio('Gender:', options=['M (Male)','F (Female)'])
 
@@ -150,7 +152,9 @@ if st.button('Compute a prediction'):
                     Avg_Utilization_Ratio,)
 
     st.success('Done')
-
+    
+    if check == False: 
+        st.write('Invalid input')
     if predict == '0':
         st.write('Existing Customer')
     else:
