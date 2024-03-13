@@ -15,7 +15,7 @@ col1, col2 = st.columns(2)
 with col1:
 
     Customer_Age = st.slider('Customer_Age:', value=45, min_value=1, max_value=100)
-    if Customer_Age > 18:
+    if Customer_Age < 18:
         check=False
 
     Gender = st.radio('Gender:', options=['M (Male)','F (Female)'])
