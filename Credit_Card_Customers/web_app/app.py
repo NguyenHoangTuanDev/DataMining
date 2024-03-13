@@ -155,7 +155,7 @@ if st.button('Compute a prediction'):
     
     if check == False: 
         st.write('Invalid input')
-    else  
+    else:  
         if predict == '0':
             st.write('Existing Customer')
         else:
